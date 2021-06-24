@@ -15,6 +15,17 @@
             > img {
                 max-height: 45px;
             }
+
+            > div {
+                display: flex;
+                // a prop gap adiciona um espaçamento entre os elementos
+                //caso exista mais do que um elemento, mesmo com display: flex
+                gap: 16px;
+
+                button{
+                    height: 40px;
+                }
+            }
         }
     }
 
@@ -97,6 +108,10 @@
                 }
 
             }
+        }
+
+        .question-list {
+            margin-top: 32px;
         }
     }
 }
