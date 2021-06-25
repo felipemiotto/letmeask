@@ -33,7 +33,6 @@ export function useRoom(roomId: string) {
     const [questions, setQuestions] = useState<QuestionType[]>([]);
     const [title, setTitle] = useState('')
 
-
     // Quando o segundo parametro passado para o useEffect() for
     // um array vazio, a função em questão será executada
     // apenas uma vez quando o componente for criado
